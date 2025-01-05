@@ -1,0 +1,328 @@
+ 
+   [
+    {
+      "product_id": 1,
+      "product_title": "iPhone 14 Pro Max",
+      "product_image": "../src/assets/iPhone 14 Pro Max.jpg",
+      "category": "Smartphones",
+      "price": 1099,
+      "description": "6.7-inch display, A16 Bionic chip, triple-camera system",
+      "Specification": [
+        "A16 Bionic chip",
+        "ProMotion display",
+        "48MP main camera",
+        "iOS 16"
+      ],
+      "availability": true,
+      "rating": 8.3,
+      "brand": "Apple",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S22 Ultra",
+      "product_image": "../src/assets/Samsung Galaxy S22 Ultra.jpg",
+      "category": "Smartphones",
+      "price": 1199,
+      "description": "6.8-inch display, Exynos 2200, quad-camera system",
+      "Specification": [
+        "Exynos 2200",
+        "Dynamic AMOLED 2X",
+        "108MP main camera",
+        "Android 12"
+      ],
+      "availability": true,
+      "rating": 7.2,
+      "brand": "Samsung",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 6 Pro",
+      "product_image": "../src/assets/Google Pixel 6 Pro.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "6.7-inch display, Google Tensor, triple-camera system",
+      "Specification": [
+        "Google Tensor",
+        "P-OLED display",
+        "50MP main camera",
+        "Android 12"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Google",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 10 Pro",
+      "product_image": "../src/assets/OnePlus 10 Pro.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "6.7-inch display, Snapdragon 8 Gen 1, triple-camera system",
+      "Specification": [
+        "Snapdragon 8 Gen 1",
+        "Fluid AMOLED display",
+        "48MP main camera",
+        "Android 12"
+      ],
+      "availability": true,
+      "rating": 5.5,
+      "brand": "OnePlus",
+      "warranty": "1 year"
+    },
+  
+     
+    {
+      "product_id": 5,
+      "product_title": "Apple Watch Series 7",
+      "product_image": "../src/assets/Apple Watch Series 7.jpg",
+      "category": "Smartwatches",
+      "price": 399,
+      "description": "Always-On Retina display, GPS + Cellular",
+      "Specification": [
+        "Always-On Retina display",
+        "ECG app",
+        "Blood Oxygen app",
+        "watchOS 8"
+      ],
+      "availability": true,
+      "rating": 9.9,
+      "brand": "Apple",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 6,
+      "product_title": "Samsung Galaxy Watch 4",
+      "product_image": "../src/assets/Samsung Galaxy Watch 4.jpg",
+      "category": "Smartwatches",
+      "price": 249,
+      "description": "Super AMOLED display, Wear OS",
+      "Specification": [
+        "Super AMOLED display",
+        "BioActive Sensor",
+        "ECG Monitor",
+        "Wear OS"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Samsung",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 7,
+      "product_title": "Fitbit Sense",
+      "product_image": "../src/assets/Fitbit Sense.jpg",
+      "category": "Smartwatches",
+      "price": 299,
+      "description": "Advanced health smartwatch with EDA sensor",
+      "Specification": [
+        "EDA Scan app",
+        "Heart rate tracking",
+        "Built-in GPS",
+        "Fitbit OS"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Fitbit",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 8,
+      "product_title": "Garmin Fenix 6",
+      "product_image": "../src/assets/Garmin Fenix 6.jpg",
+      "category": "Smartwatches",
+      "price": 599,
+      "description": "Rugged multisport GPS watch with advanced training features",
+      "Specification": [
+        "GPS",
+        "Heart Rate Monitor",
+        "Pulse Ox Sensor",
+        "Garmin OS"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Garmin",
+      "warranty": "1 year"
+    },
+  
+     
+    {
+      "product_id": 9,
+      "product_title": "MacBook Pro 16-inch",
+      "product_image": "../src/assets/MacBook Pro 16-inch.jpg",
+      "category": "Laptops",
+      "price": 2399,
+      "description": "M1 Max chip, 16GB RAM, 512GB SSD",
+      "Specification": [
+        "M1 Max chip",
+        "16-inch Retina display",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 5.9,
+      "brand": "Apple",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 10,
+      "product_title": "Dell XPS 13",
+      "product_image": "../src/assets/Dell XPS 13.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "11th Gen Intel Core i7, 16GB RAM, 1TB SSD",
+      "Specification": [
+        "11th Gen Intel Core i7",
+        "13.4-inch FHD+ display",
+        "16GB RAM",
+        "1TB SSD"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Dell",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 11,
+      "product_title": "HP Spectre x360",
+      "product_image": "../src/assets/HP Spectre x360.jpg",
+      "category": "Laptops",
+      "price": 1399,
+      "description": "Intel Evo platform, 16GB RAM, 512GB SSD",
+      "Specification": [
+        "Intel Evo platform",
+        "13.3-inch FHD Touch display",
+        "16GB RAM",
+        "512GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "HP",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 12,
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "../src/assets/Lenovo ThinkPad X1 Carbon.jpg",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "11th Gen Intel Core i7, 16GB RAM, 1TB SSD",
+      "Specification": [
+        "11th Gen Intel Core i7",
+        "14-inch UHD display",
+        "16GB RAM",
+        "1TB SSD"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Lenovo",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 13,
+      "product_title": "Asus ROG Zephyrus G14",
+      "product_image": "../src/assets/Asus ROG Zephyrus G14.jpg",
+      "category": "Laptops",
+      "price": 1599,
+      "description": "AMD Ryzen 9, 16GB RAM, 1TB SSD",
+      "Specification": [
+        "AMD Ryzen 9",
+        "14-inch QHD display",
+        "16GB RAM",
+        "1TB SSD"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Asus",
+      "warranty": "1 year"
+    },
+   
+    {
+      "product_id": 14,
+      "product_title": "Bose QuietComfort 45",
+      "product_image": "../src/assets/Bose QuietComfort 45.jpg",
+      "category": "Headphones",
+      "price": 299,
+      "description": "Noise-canceling headphones with superior sound quality.",
+      "Specification": [
+        "Over-Ear",
+        "Wireless",
+        "20-hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Bose",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 15,
+      "product_title": "Sony WH-1000XM4",
+      "product_image": "../src/assets/Sony WH-1000XM4.jpg",
+      "category": "Headphones",
+      "price": 349 ,
+      "description": "Noise-canceling headphones with superior sound quality.",
+      "Specification": [
+        "Over-Ear",
+        "Wireless",
+        "30-hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Sony",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 16,
+      "product_title": "Apple AirPods Pro",
+      "product_image": "../src/assets/Apple AirPods Pro.jpg",
+      "category": "Headphones",
+      "price": 249,
+      "description": "Noise-canceling headphones with superior sound quality.",
+      "Specification": [
+        "In-Ear",
+        "Wireless",
+        "24-hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "brand": "Apple",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": 17,
+      "product_title": "JBL Flip 5",
+      "product_image": "../src/assets/JBL Flip 5.jpg",
+      "category": "Speakers",
+      "price": 99,
+      "description": "Portable Bluetooth speaker with powerful sound.",
+      "Specification": [
+        "Portable",
+        "Wireless",
+        "Up to 12-hour Battery Life"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "JBL",
+      "warranty": "1 year"
+    },
+    {
+        "product_id": 18,
+        "product_title": "Sony Mate 50",
+
+        "product_image": "../src/assets/Sony Mate 50.jpg",
+        "category": "Headphones",
+        "price": 349,
+        "description": "Noise-canceling headphones with superior sound quality.",
+        "Specification": [
+          "Over-Ear",
+          "Wireless",
+          "Bluetooth 5.0"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Sony",
+        "warranty": "1 year"
+    }
+]    
