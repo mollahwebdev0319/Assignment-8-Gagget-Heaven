@@ -23,7 +23,7 @@ import { addToStoredCartList, addToStoredWishList } from '../utility/addToCart';
             <div className="hero bg-base-200 min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
         <img
-      src= {product_image}
+      src= {product.product_image}
       className="w-36 rounded-lg shadow-xl" />
     <div>
       <h1 className="text-5xl font-bold"> { product_title} </h1>

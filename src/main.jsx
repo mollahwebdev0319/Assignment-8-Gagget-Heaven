@@ -8,10 +8,10 @@ import {
 import Root from './components/Root';
 
 import Home from './pages/Home';
-import DashBoard from './pages/DashBoard';
+import Dashboard from './pages/Dashboard';
 import ProductDetails from './components/ProductDetails';
 import ProductList from './components/ProductList';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import NotFound from './pages/NotFound';
 import CategorySidebar from './components/CategorySidebar';
@@ -28,16 +28,16 @@ import CategorySidebar from './components/CategorySidebar';
         {
           path: "products/:product_id",
           element: <ProductDetails></ProductDetails>,
-          loader: ()=> fetch ('/public/productData.json')
+          loader: ()=> fetch ('/productData.json')
         },
           {
             path: 'listedProducts',
             element: <ProductList></ProductList>,
-            loader: ()=> fetch ('/public/productData.json')
+            loader: ()=> fetch ('/productData.json')
           },
          {
           path: "dashboard",
-          element: <DashBoard></DashBoard> ,
+          element: <Dashboard></Dashboard> ,
          },
 {
   path: "categorysidebar",

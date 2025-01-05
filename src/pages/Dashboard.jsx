@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-const DashBoard = () => {
+const Dashboard = () => {
   return (
     <div className="p-4">
       <NavLink to="/listedProducts" className="btn btn-primary "><button>DashBoard</button> </NavLink>
@@ -7,4 +7,4 @@ const DashBoard = () => {
   );
 };
 
-export default DashBoard;
+export default Dashboard;
