@@ -28,12 +28,13 @@ import CategorySidebar from './components/CategorySidebar';
         {
           path: "products/:product_id",
           element: <ProductDetails></ProductDetails>,
-          loader: ()=> fetch ('/productData.json')
+          loader: ({ params }) => fetch(`/productData.json?id=${params.product_id}`),
         },
+        
           {
             path: 'listedProducts',
             element: <ProductList></ProductList>,
-            loader: ()=> fetch ('/productData.json')
+            loader: ({ params }) => fetch(`/productData.json?id=${params.product_id}`),
           },
          {
           path: "dashboard",

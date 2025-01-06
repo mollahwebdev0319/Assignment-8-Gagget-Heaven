@@ -3,7 +3,7 @@ import { useLoaderData } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import { getStoredCartList } from '../utility/addToCart';
-import Product from './Product';
+import Product from './Product' ;
 const ProductList = () => {
     const [cartList,setCartList] = useState([]);
     const [sort,setSort]=useState('');

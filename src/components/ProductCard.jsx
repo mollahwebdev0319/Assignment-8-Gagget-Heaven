@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+ 
 import Product from './Product';
 
 const ProductCard = ({ product }) => {
    const [products, setProducts] = useState([]);
    useEffect(()=>{
-    fetch('/public/productData.json')
+    fetch('/productData.json')
     .then(res => res.json())
     .then(data => setProducts(data))
    },[]);

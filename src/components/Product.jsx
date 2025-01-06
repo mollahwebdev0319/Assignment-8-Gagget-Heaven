@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Product = ({product}) => {
-    const { product_image,product_title,price,category,product_id,rating} = product;
+    const { product_image,product_title,price,product_id} = product;
     return (
         <Link to = {`products/${product_id}`} >
         <div className=" flex flex-col justify-between items-center p-2 w-full h-full bg-base-100 shadow-lg rounded-lg ">
         <figure className=" rounded-2xl ">   
           <img
-            src= {product.product_image}
+            src= {product_image}
             alt= {product_title}
             className=" w-[200px] h-[250px]" />
         </figure>
